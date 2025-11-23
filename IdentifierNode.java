@@ -1,0 +1,6 @@
+public class IdentifierNode extends ASTNode {
+    public String name;
+    public IdentifierNode(String name) {
+        this.name = name;
+    }
+}
